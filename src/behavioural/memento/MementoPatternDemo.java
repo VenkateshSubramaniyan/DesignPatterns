@@ -6,6 +6,7 @@ package behavioural.memento;
  *
  * Originator: This object is responsible for creating a memo that can store and restore its internal state
  *                  and decide which internal state memento object stores according to required needs.
+ *                  (i.e) if we are editing then that document is the originator
  * Memento:    This object is used to store the internal state/Snapshot of the Originator
  *                  and can prevent objects (other than Originator) from accessing this object.
  * Caretaker: This object store snapshot  or return the requested snapshot
