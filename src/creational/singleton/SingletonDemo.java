@@ -8,6 +8,7 @@ public class SingletonDemo {
         EagerSingleton  eagerSingleton = EagerSingleton.getInstance();
         LazySingleton lazySingleton = LazySingleton.getInstance();
         ThreadSafeSingleton threadSafeSingleton = ThreadSafeSingleton.getInstance();
+//        BillPughSingleton singletonclone =billPughSingleton.clone();
 
     }
 

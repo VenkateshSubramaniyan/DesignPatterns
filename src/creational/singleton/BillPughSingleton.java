@@ -1,5 +1,9 @@
 package creational.singleton;
 
+/**
+ * Duplicate instane cannot be created even with reflection api
+ * BillPughSingleton method doesnt even need to add syncronized keyword
+ */
 public class BillPughSingleton {
 
 
